@@ -1,0 +1,224 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 0 version
+*/
+
+/*=============Max 480px==============*/
+@media(max-width: 400px) {
+ .progress_bar {
+   width: 240px;
+ }
+}
+
+/*=============Max 666px==============*/
+
+@media(max-width: 666px) {
+  #portfolio .image_area div {
+    width: 300px;
+    margin: 10px 0;
+  }
+  
+  #contact .contact_text .social_area {
+    display: none;
+  }
+  
+}
+
+/*=============Max 767px==============*/
+@media(max-width: 767px) {
+  #full_menu {
+    width: 100%;
+    -webkit-transform: translate(-100%, 0);
+    -moz-transform: translate(-100%, 0);
+    -ms-transform: translate(-100%, 0);
+    -o-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+    margin-left: 40px;
+  }
+
+  #home,
+  #about,
+  #portfolio,
+  #contact,
+  footer {
+    padding-left: 40px;
+  }
+
+  #about>div.wrapper {
+    display: block !important;
+  }
+
+  #about .image_area {
+    margin-top: 20px;
+  }
+}
+
+/*=============Max End==============*/
+
+/*=============Min 480px==============*/
+@media(min-width: 480px) {
+ .progress_bar {
+   width: 400px;
+ }
+}
+/*=============Min 667px==============*/
+@media(min-width: 667px) {
+  #about .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  h2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+
+  #contact .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+
+  #contact .row div {
+    min-width: 250px;
+  }
+  
+  #contact .row > .social_area {
+    display: none;
+  }
+  
+}
+
+
+/*=============Min 767px==============*/
+@media(min-width: 767px) {
+  #mobile_menu {
+    display: none;
+  }
+
+  #home,
+  #about,
+  #portfolio,
+  #contact,
+  footer {
+    padding-left: 240px;
+  }
+
+  #menu_bar_icon {
+    display: none;
+  }
+  
+  #contact .contact_text .social_area a {
+    margin: 0 9px;
+  }
+  
+}
+
+/*=============Min 767px End==============*/
+/*=========== Min 867px ===========*/
+@media(min-width: 867px) {
+  #contact .row div {
+    width: 300px;
+  }
+
+}
+
+/*=========== Min 767px to 980px ===========*/
+@media(min-width: 767px) and (max-width: 980px) {
+  #full_menu {
+    width: 220px;
+  }
+
+  header #full_menu ul li {
+    width: 150px;
+  }
+}
+
+/*===========Min 767px to 980px End==========*/
+/*=============Min 980px==============*/
+
+@media(min-width: 980px) {
+  #about {
+    padding-left: 300px;
+  }
+}
+
+/*=============Min 980px End==============*/
+
+/*=============Min 1080px==============*/
+@media(min-width: 1080px) {
+  html::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  #full_menu {
+    width: 300px;
+  }
+
+  #home,
+  #portfolio,
+  #contact,
+  footer {
+    padding-left: 300px;
+  }
+
+  #about {
+    padding-left: 400px;
+  }
+
+  #full_menu ul li {
+    width: 250px;
+  }
+
+  #contact .row div {
+    min-width: 350px;
+  }
+
+}
+
+/*=============Min 1080px End==============*/
+/*=============Min 1280px==============*/
+
+@media(min-width: 1280px) {
+  body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #111;
+  }
+
+}
+
+/*=============Max 1350px==============*/
+
+
+@media(min-height: 1350px) {
+  #home ,
+  #about,
+  #contact,
+  #portfolio {
+    max-height: 50vh;
+    min-height: 50vh;
+  }
+}
